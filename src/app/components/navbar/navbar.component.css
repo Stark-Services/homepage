@@ -11,6 +11,7 @@ header {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
+  background-color: #4033ff;
   /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
   transition: all 0.05s;
 }
@@ -84,7 +85,7 @@ nav ul li a:hover {
     cursor: pointer;
     text-align: center;
     font-size: 30px;
-    color: #494040;
+    color: #fff;
   }
 
   .menu-toggle:before {

@@ -10,8 +10,8 @@ import { AboutComponent } from './components/about/about.component';
 const routes: Routes = [
   { path: '', pathMatch: 'full', component: HomeComponent },
   { path: 'contact-us', component: ContactComponent },
-  { path: 'about-us', component: ServicesComponent },
-  { path: 'services', component: AboutComponent },
+  { path: 'about-us', component: AboutComponent },
+  { path: 'services', component: ServicesComponent },
 ];
 
 @NgModule({

@@ -1,0 +1,99 @@
+.header {
+  background-color: #4033ff;
+  min-height: 30vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header p {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.container {
+  margin-top: 5rem;
+}
+
+.goal {
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.goal .text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.goal .text h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.goal > img {
+  margin-left: 10px;
+  float: right;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin-top: 8rem;
+  justify-content: space-between;
+}
+
+h2.members {
+  font-size: 40px;
+  padding: 20px;
+  margin-top: 8rem;
+  font-weight: 500;
+  margin-bottom: -100px;
+}
+
+.member {
+  background-color: rgb(248, 245, 245);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.member p.name {
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.member img {
+  width: 260px;
+  border-radius: 50%;
+}
+
+.member .social-icons img {
+  width: 30px;
+  border-radius: 0;
+  margin: 5px;
+}
+
+@media (max-width: 768px) {
+  .goal .text {
+    width: 100%;
+  }
+
+  .goal img {
+    display: none;
+  }
+
+  .member {
+    margin-bottom: 20px;
+  }
+}
