@@ -1,0 +1,56 @@
+.title-text {
+  font: normal bold 50px/ 72px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.page_header {
+  background-color: #4033ff;
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+
+/* Curve Shape */
+.custom-shape-divider-bottom-1603084377 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1603084377 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 105px;
+}
+
+.custom-shape-divider-bottom-1603084377 .shape-fill {
+  fill: #ffffff;
+}
+/* Curve shape ends */
+
+@media (max-width: 414px) {
+  .main_content {
+    margin-top: 10rem;
+  }
+
+  .img-fluid {
+    display: none;
+  }
+}
+
+.main_content h3::after {
+  content: "";
+  height: 3px;
+  width: 18vw;
+  background-color: black;
+  margin-left: 5%;
+  display: inline-block;
+  transform: translateY(-3px);
+}

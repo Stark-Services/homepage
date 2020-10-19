@@ -1,0 +1,8 @@
+.contact-head {
+  margin: 20px;
+}
+input {
+  border: 1px solid grey;
+  border-radius: 30px;
+  margin-top: 10px;
+}

@@ -1,0 +1,47 @@
+<header id="nav">
+  <a href="#" class="logo">
+    <h3>Stark</h3>
+  </a>
+  <div class="menu-toggle"></div>
+  <nav>
+    <ul>
+      <li>
+        <a
+          routerLink="/"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          Home
+        </a>
+      </li>
+      <li><a routerLink="/services/" routerLinkActive="active">Services</a></li>
+      <li><a routerLink="/about-us/" routerLinkActive="active">About Us</a></li>
+      <li>
+        <a routerLink="/contact-us" routerLinkActive="active">Contact</a>
+      </li>
+      <div class="social-icons">
+        <li>
+          <a routerLink="/">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </li>
+      </div>
+    </ul>
+  </nav>
+  <div class="clearfix"></div>
+</header>
