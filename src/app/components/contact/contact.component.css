@@ -1,8 +1,78 @@
-.contact-head {
-  margin: 20px;
+.contact {
+  position: relative;
 }
-input {
-  border: 1px solid grey;
-  border-radius: 30px;
-  margin-top: 10px;
+
+.upper h1 {
+  font-weight: 350;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.upper h4 {
+  color: darkgray;
+  font-weight: 400;
+}
+
+.sidearea {
+  margin: 0 1.5rem;
+}
+
+.sidearea ul li {
+  list-style-type: circle;
+  margin-top: 1.5rem;
+}
+
+.sidearea p {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.sidearea ul {
+  font-size: 18px;
+  color: #fff;
+}
+
+.contact_section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://wallpapercave.com/wp/wp2672841.jpg");
+  background-size: cover;
+}
+
+.custom-shape-divider-top-1603187163 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1603187163 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 258px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1603187163 .shape-fill {
+  fill: #ffffff;
+}
+
+.form-group input {
+  background-color: #f1f1f1;
+  border-radius: 0px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid darkgray;
+}
+
+.form-group textarea {
+  background-color: #f1f1f1;
+  border-radius: 0px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid darkgray;
 }

@@ -1,54 +1,118 @@
-<div class="contact-head">
-  <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7IoWjlkZJMCBHrah5kaw1FnE0jvEcDy3csQ&usqp=CAU"
-    alt="image"
-    class="img-fluid"
-    style="width: 100%"
-  />
-</div>
-<div class="row text-center">
-  <div class="col-5">
-    <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSKuDi4mifr_3aJZVocr8b58au-uAO0cnWLEg&usqp=CAU"
-    />
+<div class="contact">
+  <div class="container text-center upper">
+    <h1>Contact our team</h1>
+    <h4>
+      Our team is happy to answer your questions. Fill out the <br />
+      form and we’ll be in touch as soon as possible.
+    </h4>
   </div>
-  <div class="col-7">
-    <h1>Get in touch</h1>
-    <form>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <input
-            type="text"
-            name="firstname"
-            placeholder="Firstname"
-            class="form-control"
-          />
+
+  <section class="contact_section">
+    <div class="custom-shape-divider-top-1603187163">
+      <svg
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1200 120"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+          class="shape-fill"
+        ></path>
+      </svg>
+    </div>
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-6 mt-5">
+          <div class="card w-75 shadow-lg p-3 bg-white rounded float-right">
+            <form class="px-3">
+              <div class="form-group">
+                <label for="exampleInputFirstName">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputFirstName"
+                  required
+                  aria-describedby="emailHelp"
+                  placeholder="John"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputLastName">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputLastName"
+                  required
+                  placeholder="Doe"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail"
+                  required
+                  aria-describedby="emailHelp"
+                  placeholder="john.doe@example.com"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPhoneNumber">Phone Number</label>
+                <input
+                  type="phone"
+                  class="form-control"
+                  id="exampleInputPhoneNumber"
+                  required
+                  placeholder="+91 55555-55555"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputExtra">Anything else?</label>
+                <!-- <input type="text" class="form-control" id="exampleInputExtra" placeholder="Tell us about your project,needs,and timeline"> -->
+                <textarea
+                  class="form-control"
+                  rows="4"
+                  id="exampleInputExtra"
+                  required
+                  placeholder="Describe your project, needs,and timeline "
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn mt-4 float-right"
+                style="
+                  background-color: #0e337e;
+                  color: white;
+                  font-weight: 500;
+                "
+              >
+                CONTACT STARKS
+              </button>
+            </form>
+          </div>
         </div>
-        <div class="form-group col-md-6">
-          <input
-            type="text"
-            name="lastname"
-            placeholder="Lastname"
-            class="form-control"
-          />
+        <div class="col-12 col-md-12 col-lg-6 d-flex align-items-end">
+          <div class="sidearea">
+            <p class="lead">With Stark You Can:</p>
+            <ul>
+              <li>
+                Focus critical developer resources on <br />
+                your core business
+              </li>
+              <li>
+                Launch websites faster with latest <br />
+                technologies
+              </li>
+              <li>Improve your interactions with user</li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="form-group">
-        <input
-          type="email"
-          name="email"
-          placeholder="Email"
-          class="form-control"
-        />
-      </div>
-      <div class="form-group">
-        <input
-          type="text"
-          name="phonenumber"
-          placeholder="Mobile No."
-          class="form-control"
-        />
-      </div>
-    </form>
-  </div>
+    </div>
+  </section>
 </div>
