@@ -1,0 +1,118 @@
+.header {
+  background-color: #4033ff;
+  position: relative;
+  min-height: 30vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header p {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 150px;
+}
+
+.companies {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 20px;
+}
+
+.companies h2::before {
+  content: "\2666";
+  margin-right: 20px;
+}
+
+.companies h2::after {
+  content: "\2666";
+  margin-left: 20px;
+}
+
+.companies .company-logo {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 20px;
+}
+
+.company-logo img {
+  width: 230px;
+  height: 150px;
+  margin: 10px 40px;
+}
+
+.services h2 {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.service {
+  background-color: #f7f7f7;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .service {
+    flex-wrap: nowrap;
+  }
+}
+
+.service img {
+  max-width: 360px;
+  width: 360px;
+  height: 230px;
+  margin: 30px;
+}
+
+.service img:nth-child(even) {
+  float: right;
+}
+
+.service img:nth-child(odd) {
+  float: left;
+}
+
+.service h4 {
+  margin-bottom: 20px;
+}
+
+.contact {
+  text-align: center;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.contact {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* Curve Shape */
+.custom-shape-divider-bottom-1603084377 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1603084377 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 105px;
+}
+
+.custom-shape-divider-bottom-1603084377 .shape-fill {
+  fill: #ffffff;
+}
+/* Curve shape ends */

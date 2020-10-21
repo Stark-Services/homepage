@@ -1,1 +1,85 @@
-<p>services works!</p>
+<div class="header">
+  <p>Services</p>
+  <div class="custom-shape-divider-bottom-1603084377">
+    <svg
+      data-name="Layer 1"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1200 120"
+      preserveAspectRatio="none"
+    >
+      <path
+        d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+        class="shape-fill"
+      ></path>
+    </svg>
+  </div>
+</div>
+
+<div class="container companies">
+  <h2>Companies we have served</h2>
+  <marquee behavior="scroll" scrolldelay="0" scrollamount="5">
+    <div class="company-logo">
+      <img *ngFor="let logo of companies" [src]="logo" alt="" />
+    </div>
+  </marquee>
+</div>
+
+<div class="container">
+  <div class="services">
+    <h2>Our main services</h2>
+    <!-- Web service -->
+    <div class="service">
+      <img src="https://peesha.com/assets/common/images/p4.png" alt="" />
+      <div class="text">
+        <h4>Website Creation</h4>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+          quia ex omnis, cumque aperiam harum maxime, quasi tempora eligendi
+          officia velit, deleniti vitae distinctio? Hic accusamus voluptatum
+          harum? Placeat, necessitatibus.
+        </p>
+      </div>
+    </div>
+
+    <!-- App service -->
+    <div class="service">
+      <img
+        src="https://www.center3consulting.com/wp-content/uploads/2018/06/App-Development.png"
+        alt=""
+      />
+      <div class="text">
+        <h4>App Development</h4>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+          quia ex omnis, cumque aperiam harum maxime, quasi tempora eligendi
+          officia velit, deleniti vitae distinctio? Hic accusamus voluptatum
+          harum? Placeat, necessitatibus.
+        </p>
+      </div>
+    </div>
+
+    <!-- Cyber security service -->
+    <div class="service">
+      <img
+        src="https://origamistudios.us/wp-content/uploads/2018/10/UI-Development.png"
+        alt=""
+      />
+      <div class="text">
+        <h4>UI Development</h4>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+          quia ex omnis, cumque aperiam harum maxime, quasi tempora eligendi
+          officia velit, deleniti vitae distinctio? Hic accusamus voluptatum
+          harum? Placeat, necessitatibus.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container contact">
+  <p>Want to work with us ?</p>
+  <a routerLink="/contact-us">
+    <button class="btn btn-lg btn-outline-success">Contact us</button>
+  </a>
+</div>

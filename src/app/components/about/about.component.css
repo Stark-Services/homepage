@@ -1,5 +1,6 @@
 .header {
   background-color: #4033ff;
+  position: relative;
   min-height: 30vh;
   color: #fff;
   display: flex;
@@ -10,6 +11,7 @@
 .header p {
   font-size: 50px;
   font-weight: 500;
+  margin-bottom: 150px;
 }
 
 .container {
@@ -21,6 +23,7 @@
   border-radius: 10px;
   display: flex;
   flex-direction: row;
+  background-color: #f7f7f7;
 }
 
 .goal .text {
@@ -39,6 +42,7 @@
 .goal > img {
   margin-left: 10px;
   float: right;
+  width: 500px;
 }
 
 .team {
@@ -52,7 +56,7 @@
 h2.members {
   font-size: 40px;
   padding: 20px;
-  margin-top: 8rem;
+  margin-top: 5rem;
   font-weight: 500;
   margin-bottom: -100px;
 }
@@ -97,3 +101,25 @@ h2.members {
     margin-bottom: 20px;
   }
 }
+
+/* Curve Shape */
+.custom-shape-divider-bottom-1603084377 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1603084377 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 105px;
+}
+
+.custom-shape-divider-bottom-1603084377 .shape-fill {
+  fill: #ffffff;
+}
+/* Curve shape ends */

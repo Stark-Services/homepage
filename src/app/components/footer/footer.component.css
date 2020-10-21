@@ -19,14 +19,16 @@
 
 .top > .links {
   margin-left: 100px;
-  color: white;
+  margin: 20px 0 20px 100px;
+  color: #fff !important;
 }
 
 .top > .links a {
   margin-left: 40px;
   text-decoration: none;
   font-size: 20px;
-  color: white;
+  color: white !important;
+  padding: 5px 15px;
 }
 
 @media only screen and (max-width: 950px) {
@@ -40,7 +42,8 @@
 
   .top > .links a {
     margin-left: 0;
-    padding: 15px;
+    padding: 5px 15px;
+    transform: scale(0.8);
   }
 
   .top .social-icons {
@@ -49,9 +52,9 @@
 }
 
 .links .active {
-  padding: 5px;
-  border-top: 1px ridge white;
   border-bottom: 1px ridge white;
+  border-top: 1px ridge white;
+  border-radius: 10px;
 }
 
 .top > .social-icons i {
