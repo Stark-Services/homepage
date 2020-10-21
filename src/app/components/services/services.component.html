@@ -15,15 +15,6 @@
   </div>
 </div>
 
-<div class="container companies">
-  <h2>Companies we have served</h2>
-  <marquee behavior="scroll" scrolldelay="0" scrollamount="5">
-    <div class="company-logo">
-      <img *ngFor="let logo of companies" [src]="logo" alt="" />
-    </div>
-  </marquee>
-</div>
-
 <div class="container">
   <div class="services">
     <h2>Our main services</h2>
@@ -75,6 +66,15 @@
       </div>
     </div>
   </div>
+</div>
+
+<div class="container companies">
+  <h2>Companies we have served</h2>
+  <marquee behavior="scroll" scrolldelay="0" scrollamount="5">
+    <div class="company-logo">
+      <img *ngFor="let logo of companies" [src]="logo" alt="" />
+    </div>
+  </marquee>
 </div>
 
 <div class="container contact">
