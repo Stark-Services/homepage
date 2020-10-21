@@ -50,7 +50,7 @@
 }
 
 .service {
-  background-color: #f7f7f7;
+  background-color: #fff;
   margin-bottom: 3rem;
   display: flex;
   flex-direction: row;
@@ -113,6 +113,6 @@
 }
 
 .custom-shape-divider-bottom-1603084377 .shape-fill {
-  fill: #ffffff;
+  fill: #f7f7f7;
 }
 /* Curve shape ends */
