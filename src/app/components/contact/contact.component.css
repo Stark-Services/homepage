@@ -13,10 +13,6 @@
   font-weight: 400;
 }
 
-.sidearea {
-  margin: 0 1.5rem;
-}
-
 .sidearea ul li {
   list-style-type: circle;
   margin-top: 1.5rem;
@@ -39,6 +35,11 @@
   background-image: url("https://wallpapercave.com/wp/wp2672841.jpg");
   background-size: cover;
 }
+
+/* .card{
+    width: 60%;
+    margin: 0 auto;
+} */
 
 .custom-shape-divider-top-1603187163 {
   position: absolute;
@@ -63,16 +64,23 @@
 
 .form-group input {
   background-color: #f1f1f1;
-  border-radius: 0px;
+  border-radius: 10px;
   outline: none;
-  border: none;
-  border-bottom: 1px solid darkgray;
+  border: 1px solid;
+  /* border-bottom: 1px solid darkgray; */
 }
 
 .form-group textarea {
   background-color: #f1f1f1;
-  border-radius: 0px;
+  border-radius: 10px;
   outline: none;
-  border: none;
+  border: 1px solid;
   border-bottom: 1px solid darkgray;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }

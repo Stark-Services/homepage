@@ -1,118 +1,128 @@
-<div class="contact">
-  <div class="container text-center upper">
-    <h1>Contact our team</h1>
-    <h4>
-      Our team is happy to answer your questions. Fill out the <br />
-      form and we’ll be in touch as soon as possible.
-    </h4>
-  </div>
-
-  <section class="contact_section">
-    <div class="custom-shape-divider-top-1603187163">
-      <svg
-        data-name="Layer 1"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1200 120"
-        preserveAspectRatio="none"
-      >
-        <path
-          d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-          class="shape-fill"
-        ></path>
-      </svg>
-    </div>
-    <div class="container-fluid mt-5">
-      <div class="row">
-        <div class="col-12 col-md-12 col-lg-6 mt-5">
-          <div class="card w-75 shadow-lg p-3 bg-white rounded float-right">
-            <form class="px-3">
-              <div class="form-group">
-                <label for="exampleInputFirstName">First Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="exampleInputFirstName"
-                  required
-                  aria-describedby="emailHelp"
-                  placeholder="John"
-                />
-              </div>
-              <div class="form-group">
-                <label for="exampleInputLastName">Last Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="exampleInputLastName"
-                  required
-                  placeholder="Doe"
-                />
-              </div>
-              <div class="form-group">
-                <label for="exampleInputEmail">Email</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="exampleInputEmail"
-                  required
-                  aria-describedby="emailHelp"
-                  placeholder="john.doe@example.com"
-                />
-                <small id="emailHelp" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="contactcss.css">
+    </head>
+    <body>
+        <div class="contact">
+            <div class="container text-center upper">
+              <h1>Contact our team</h1>
+              <h4>
+                Our team is happy to answer your questions. Fill out the <br />
+                form and we’ll be in touch as soon as possible.
+              </h4>
+            </div>
+          
+            <section class="contact_section">
+              <div class="custom-shape-divider-top-1603187163">
+                <svg
+                  data-name="Layer 1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 1200 120"
+                  preserveAspectRatio="none"
                 >
+                  <path
+                    d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+                    class="shape-fill"
+                  ></path>
+                </svg>
               </div>
-              <div class="form-group">
-                <label for="exampleInputPhoneNumber">Phone Number</label>
-                <input
-                  type="phone"
-                  class="form-control"
-                  id="exampleInputPhoneNumber"
-                  required
-                  placeholder="+91 55555-55555"
-                />
+              <div class="container-fluid mt-5">
+                <div class="row p-5">
+                  <div class="col-12 col-md-12 col-lg-6 col-sm-12">
+                    <div class="card shadow-lg p-5 bg-white rounded mx-auto">
+                      <form class="px-auto" action="https://formspree.io/f/mjvpweep" method="POST">
+                        <div class="form-group">
+                          <label for="exampleInputFirstName">First Name</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="exampleInputFirstName"
+                            name="firstname"
+                            required
+                            aria-describedby="emailHelp"
+                            placeholder="John"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputLastName">Last Name</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="exampleInputLastName"
+                            name="lastname"
+                            required
+                            placeholder="Doe"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputEmail">Email</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="exampleInputEmail"
+                            name="email"
+                            required
+                            aria-describedby="emailHelp"
+                            placeholder="john.doe@example.com"
+                          />
+                          <small id="emailHelp" class="form-text text-muted"
+                            >We'll never share your email with anyone else.</small
+                          >
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPhoneNumber">Phone Number</label>
+                          <input
+                            type="phone"
+                            class="form-control"
+                            id="exampleInputPhoneNumber"
+                            name="number"
+                            required
+                            placeholder="+91 55555-55555"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputExtra">Anything else?</label>
+                          <!-- <input type="text" class="form-control" id="exampleInputExtra" placeholder="Tell us about your project,needs,and timeline"> -->
+                          <textarea
+                            class="form-control"
+                            rows="4"
+                            id="exampleInputExtra"
+                            name="message"
+                            required
+                            placeholder="Describe your project, needs,and timeline "
+                          ></textarea>
+                        </div>
+                        <button
+                          type="submit"
+                          class="btn btn-primary mt-3"
+                        >
+                          CONTACT STARKS
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-12 col-lg-6 col-sm-12 d-flex align-items-center">
+                    <div class="sidearea mx-auto mt-3">
+                      <p class="lead">With Stark You Can:</p>
+                      <ul>
+                        <li>
+                          Focus critical developer resources on <br />
+                          your core business
+                        </li>
+                        <li>
+                          Launch websites faster with latest <br />
+                          technologies
+                        </li>
+                        <li>Improve your interactions with user</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="form-group">
-                <label for="exampleInputExtra">Anything else?</label>
-                <!-- <input type="text" class="form-control" id="exampleInputExtra" placeholder="Tell us about your project,needs,and timeline"> -->
-                <textarea
-                  class="form-control"
-                  rows="4"
-                  id="exampleInputExtra"
-                  required
-                  placeholder="Describe your project, needs,and timeline "
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                class="btn mt-4 float-right"
-                style="
-                  background-color: #0e337e;
-                  color: white;
-                  font-weight: 500;
-                "
-              >
-                CONTACT STARKS
-              </button>
-            </form>
-          </div>
+            </section>
         </div>
-        <div class="col-12 col-md-12 col-lg-6 d-flex align-items-end">
-          <div class="sidearea">
-            <p class="lead">With Stark You Can:</p>
-            <ul>
-              <li>
-                Focus critical developer resources on <br />
-                your core business
-              </li>
-              <li>
-                Launch websites faster with latest <br />
-                technologies
-              </li>
-              <li>Improve your interactions with user</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
+          
+    </body>
+</html>
